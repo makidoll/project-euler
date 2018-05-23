@@ -1,5 +1,5 @@
 # Project Euler
-> 📜 Solving math problems in C and JS.
+> 📜 Solving math problems.
 
 <img src="https://projecteuler.net/profile/MakiXx.png">
 
