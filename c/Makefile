@@ -9,5 +9,8 @@ search: *.c
 	@read -p "Enter problem title: " problem; \
 	head -n 1 $^ 
 
+list: *.c
+	head -n 1 $^ 
+
 clean:
 	rm -f *.o

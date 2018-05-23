@@ -1,12 +1,18 @@
 # Project Euler
-> 📜 Solving math problems in C.
+> 📜 Solving math problems in C and JS.
 
 <img src="https://projecteuler.net/profile/MakiXx.png">
 
-## How to compile
+This repo is a bit of a mess. I'm just dumping my things in here so it's not ment to be that organized.
 
-Just run `make xxxx`. *(xxxx: 0000->9999)*
+## How to compile C
+
+Just run `make x`. *(x: 0->9999)*
 
 You can search with `make search`,
 
 and clean with `make clean`.
+
+## How to run JS
+
+Just do `node x` *(c: 0->9999)*
