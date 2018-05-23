@@ -3,29 +3,14 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX 10
+bool isInt(long int n) {
+	if (n%1==0) return true;
+	return false;
+}
 
-int main(int argc, char* argv[]) {
+int main() {
 	
-	int num = 1;
-	bool found = false;
-
-	bool cur_found = false;
-	while (found == false) {
-		if (cur_found) {
-			printf("%d\n", num);
-		} else {
-			cur_found = true;
-			for (int i=1; i<MAX; ++i) {
-				if (num%i == 0) {
-					cur_found = true;
-				} else {
-					cur_found = false;
-					break;
-				}
-			}
-		}
-	}
+	printf("%s\n", );
 
 	return 0;
 }
