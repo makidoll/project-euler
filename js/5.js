@@ -12,14 +12,14 @@ function isDivisibleBetween(num, low, high) {
 
 function smallestMultiple(low, high) {
 	let found = false;
-	let number = 51000000;
+	let number = 230000000;
 	while (!found) {
 		console.log("trying: "+number)
 		if (isDivisibleBetween(number, low, high)) {
 			found = true;
 			break;
 		}
-		number++;
+		number += high;
 	}
 	console.log("found: "+number);
 }
