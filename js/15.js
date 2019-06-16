@@ -1,17 +1,12 @@
-function laticePaths(size) {
+function laticePaths(sizeX, sizeY) {
 
-	let count = 1; // right and down
-	let finished = false;
+	let count = 0;
 
-	let x = size-1;
-	let y = size;
-
-	while (!finished) {
-		y++
+	// putting x on the right
+	for (let x=sizeX; x>=0; x--) {
+		
 	}
-
-	return undefined;
 
 }
 
-console.log(laticePaths(2));
+console.log(laticePaths(2, 2));

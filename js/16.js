@@ -1,6 +1,17 @@
-var big = require("./big-numbers");
+function pow(n, power) {
+	let out = n;
 
-let a = big.number(400);
-let b = big.number(300);
+	for (let i=1n; i<power; i++) {
+		out *= n;
+	}
 
-console.log(big.add(a, b));
+	return out;
+}
+
+let result = 0;
+
+(pow(2n, 1000n)+"").split("").map(x=>{
+	result += parseInt(x);
+})
+
+console.log(result);
