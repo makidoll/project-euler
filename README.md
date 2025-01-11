@@ -1,7 +1,7 @@
 # Project Euler
 > 📜 Solving math problems.
 
-<img src="https://projecteuler.net/profile/Makitsune.png">
+<img src="https://projecteuler.net/profile/makidoll.png">
 
 ## How to run JS
 
